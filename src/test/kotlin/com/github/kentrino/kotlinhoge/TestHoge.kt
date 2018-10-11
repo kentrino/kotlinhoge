@@ -8,8 +8,8 @@ import org.junit.Test
 class TestHoge {
     @Test
     fun `square number got correctly`() {
-      val hoge = Hoge()
-      val res = hoge.square(3)
-      res shouldBe 9
+        val hoge = Hoge()
+        val res = hoge.square(3)
+        res shouldBe 9
     }
 }
